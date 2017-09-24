@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Times New Roman, sans-serif;
+}
+
+.taskContainer {
+	margin: 2% auto;
+	text-align: center;
+}
+
+.taskList {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.taskList caption {
+	font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 0;
+}
+
+tr:nth-child(2n) {
+	background-color: lightblue;
+}
+
+tr:nth-child(2n+1) {
+	background-color: lightgray;
+}
+
+.taskList_head tr {
+	background-color: red;
+}
+
+button {
+	cursor: pointer;
+	width: 28px;
+    height: 28px;
+}
+
+.navigation {
+	text-align: left;
+}
+
+tbody td:first-child {
+	cursor: pointer;
+	display: flex;
+    justify-content: center;
+}
+
+.editTitleInput {
+	padding: 5px;
+}
+
+.cancel_btn {
+	background: transparent url("/img/cancel.png") no-repeat center center;
+}
+
+.save_btn {
+	background: transparent url("/img/floppy-disk.png") no-repeat center center;
+}
